@@ -1,16 +1,16 @@
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.Collections;
 
 
-public class first {
-    // first takeinput a integer 
+
+public class Second {
+    // first takeinput a strinh 
     public static void s (int n ) {
-        int a[]= new int[n];
+        String a[]= new String[n];
         int i;
         for( i = 0; i<n; i++){
             Scanner sc = new Scanner(System.in);
-            a[i]=sc.nextInt();
+            a[i]=sc.nextLine();
         }
         Arrays.sort(a);
        
