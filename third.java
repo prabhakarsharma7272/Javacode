@@ -13,7 +13,7 @@ public class third {
         // for(String str : d){
         //     System.out.println(str);
         // }
-        // sc.close();
+        sc.close();
         for(int i =d.length-1; i>=0; i--){
             System.out.println(d[i]);
         }

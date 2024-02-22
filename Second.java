@@ -11,6 +11,7 @@ public class Second {
         for( i = 0; i<n; i++){
             Scanner sc = new Scanner(System.in);
             a[i]=sc.nextLine();
+            sc.close();
         }
         Arrays.sort(a);
        
@@ -24,6 +25,7 @@ public class Second {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         s(n);
+        sc.close();
     }
     
 }

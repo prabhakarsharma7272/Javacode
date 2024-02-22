@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.Collections;
 
 
 public class first {
@@ -11,6 +10,7 @@ public class first {
         for( i = 0; i<n; i++){
             Scanner sc = new Scanner(System.in);
             a[i]=sc.nextInt();
+            sc.close();
         }
         Arrays.sort(a);
        
@@ -19,11 +19,13 @@ public class first {
             System.out.print(a[i] +" ");
         }
         
+        
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         s(n);
+        sc.close();
     }
     
 }
