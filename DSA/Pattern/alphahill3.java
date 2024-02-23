@@ -1,10 +1,11 @@
-package DSA;
+package DSA.Pattern;
+
 import java.util.Scanner;
 
-public class alphahill2 {
+public class alphahill3 {
     public static void reversealpha(int n){
         for (int i =0; i<n; i++){
-            for(int j = n-i; j<=n; j++){
+            for(int j = n; j>=n-i; j--){
                 System.out.print((char)(64+j)+ " ");
             }
             System.out.println();

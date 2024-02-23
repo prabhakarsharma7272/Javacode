@@ -1,11 +1,13 @@
-package DSA;
+package DSA.Pattern;
+
 import java.util.Scanner;
-public class nlettertriangle3 {
-    public static void nLetterTriangle3(int n) {
+
+public class nlettertriangle2 {
+     public static void nLetterTriangle2(int n) {
         char a = 'A';
-        for (int i =0; i<n; i++){
+        for (int i =1; i<=n; i++){
             a = 'A';
-          for (int j = 1; j<=n-i; j++ ){
+          for (int j = 1; j<=i; j++ ){
               System.out.print(a + " ");
               a++;
           }
@@ -16,7 +18,7 @@ public class nlettertriangle3 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         sc.close();
-        nLetterTriangle3(n);
+        nLetterTriangle2(n);
     }
     
 }

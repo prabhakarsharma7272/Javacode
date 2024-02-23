@@ -1,5 +1,5 @@
 
-package DSA;
+package DSA.Pattern;
 import java.util.Scanner;
 
 public class nlettertriangle {
