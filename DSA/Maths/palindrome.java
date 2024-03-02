@@ -21,8 +21,8 @@ public class palindrome {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        boolean x =third(n);
+        // int n = sc.nextInt();
+        // boolean x =third(n);
         System.out.println(4%8);
         sc.close();
     }
